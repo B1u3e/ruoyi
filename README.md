@@ -24,6 +24,7 @@
 > 😜 给项目点点 Star 吧，这对我们真的很重要！
 
 ![架构图](https://static.iocoder.cn/ruoyi-vue-pro-architecture.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMelo2003%2Fruoyi.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMelo2003%2Fruoyi?ref=badge_shield)
 
 * 管理后台的 Vue3 版本采用 [vue-element-plus-admin](https://gitee.com/kailong110120130/vue-element-plus-admin) ，Vue2 版本采用 [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) 
 * 管理后台的移动端采用 [uni-app](https://github.com/dcloudio/uni-app) 方案，一份代码多终端适配，同时支持 APP、小程序、H5！
@@ -285,3 +286,7 @@ ps：核心功能已经实现，正在对接微信小程序中...
 | ![](https://static.iocoder.cn/images/ruoyi-vue-pro/admin-uniapp/07.png?imageView2/2/format/webp) | ![](https://static.iocoder.cn/images/ruoyi-vue-pro/admin-uniapp/08.png?imageView2/2/format/webp) | ![](https://static.iocoder.cn/images/ruoyi-vue-pro/admin-uniapp/09.png?imageView2/2/format/webp) |
 
 目前已经实现登录、我的、工作台、编辑资料、头像修改、密码修改、常见问题、关于我们等基础功能。
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMelo2003%2Fruoyi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMelo2003%2Fruoyi?ref=badge_large)
