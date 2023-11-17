@@ -2167,14 +2167,15 @@ bpmn-js-properties-panel@0.46.0:
     selection-update "^0.1.2"
     semver "^6.3.0"
 
-bpmn-js-token-simulation@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.npmmirror.com/bpmn-js-token-simulation/-/bpmn-js-token-simulation-0.10.0.tgz#10e086170cbe5df5e4b63b2b3c7dfd1b80afdc73"
-  integrity sha512-QuZQ/KVXKt9Vl+XENyOBoTW2Aw+uKjuBlKdCJL6El7AyM7DkJ5bZkSYURshId1SkBDdYg2mJ1flSmsrhGuSfwg==
+bpmn-js-token-simulation@0.31.1:
+  version "0.31.1"
+  resolved "https://registry.yarnpkg.com/bpmn-js-token-simulation/-/bpmn-js-token-simulation-0.31.1.tgz#4166c9825f60d3c3cc759ad89647e79e6fb16eec"
+  integrity sha512-UdSJPW6hAHrznDCYAm/G+bGkR0ZSlHTdMKETpmfxZBnKb99xWLz2/SqvzhN7Hlxr489sxs1VtmOX++U1PDNJPw==
   dependencies:
-    min-dash "^3.3.0"
-    min-dom "^0.2.0"
-    svg.js "^2.6.3"
+    inherits-browser "^0.1.0"
+    min-dash "^4.0.0"
+    min-dom "^4.0.3"
+    randomcolor "^0.6.2"
 
 bpmn-js@8.9.0:
   version "8.9.0"
@@ -2871,55 +2872,20 @@ commondir@^1.0.1:
   resolved "https://registry.npmmirror.com/commondir/-/commondir-1.0.1.tgz"
   integrity "sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs= sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg=="
 
-component-classes@^1.2.3:
-  version "1.2.6"
-  resolved "https://registry.npmmirror.com/component-classes/-/component-classes-1.2.6.tgz"
-  integrity "sha1-xkI5TDYYpNiwuJGe/Mu9kw5c1pE= sha512-hPFGULxdwugu1QWW3SvVOCUHLzO34+a2J6Wqy0c5ASQkfi9/8nZcBB0ZohaEbXOQlCflMAEMmEWk7u7BVs4koA=="
-  dependencies:
-    component-indexof "0.0.3"
-
-component-closest@*, component-closest@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmmirror.com/component-closest/-/component-closest-0.1.4.tgz"
-  integrity "sha1-W3L8UtkGB+dRFcr9w7B+JzSN5xs= sha512-NF9hMj6JKGM5sb6wP/dg7GdJOttaIH9PcTsUNdWcrvu7Kw/5R5swQAFpgaYEHlARrNMyn4Wf7O1PlRej+pt76Q=="
-  dependencies:
-    component-matches-selector "~0.1.5"
-
-component-delegate@^0.2.3:
-  version "0.2.4"
-  resolved "https://registry.npmmirror.com/component-delegate/-/component-delegate-0.2.4.tgz"
-  integrity "sha1-3FAodZ6mgb6oSj1rvWUCB8O+sTg= sha512-OlpcB/6Fi+kXQPh/TfXnSvvmrU04ghz7vcJh/jgLF0Ni+I+E3WGlKJQbBGDa5X+kVUG8WxOgjP+8iWbz902fPg=="
-  dependencies:
-    component-closest "*"
-    component-event "*"
-
 component-emitter@^1.2.1:
   version "1.3.0"
   resolved "https://registry.npmmirror.com/component-emitter/-/component-emitter-1.3.0.tgz"
   integrity sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
 
-component-event@*, component-event@^0.1.4:
+component-event@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmmirror.com/component-event/-/component-event-0.1.4.tgz"
   integrity "sha1-PeePwoeCOBeH4kvyp8U2vwFCybQ= sha512-GMwOG8MnUHP1l8DZx1ztFO0SJTFnIzZnBDkXAj8RM2ntV2A6ALlDxgbMY1Fvxlg6WPQ+5IM/a6vg4PEYbjg/Rw=="
 
-component-indexof@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/component-indexof/-/component-indexof-0.0.3.tgz"
-  integrity "sha1-EdCRMSI5648yyPJa6csAL/6NPCQ= sha512-puDQKvx/64HZXb4hBwIcvQLaLgux8o1CbWl39s41hrIIZDl1lJiD5jc22gj3RBeGK0ovxALDYpIbyjqDUUl0rw=="
-
-component-matches-selector@^0.1.5, component-matches-selector@~0.1.5:
-  version "0.1.7"
-  resolved "https://registry.npmmirror.com/component-matches-selector/-/component-matches-selector-0.1.7.tgz"
-  integrity sha512-Yb2+pVBvrqkQVpPaDBF0DYXRreBveXJNrpJs9FnFu8PF6/5IIcz5oDZqiH9nB5hbD2/TmFVN5ZCxBzqu7yFFYQ==
-  dependencies:
-    component-query "*"
-    global-object "^1.0.0"
-
-component-query@*, component-query@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/component-query/-/component-query-0.0.3.tgz"
-  integrity "sha1-B/Sdq3Bx+pYGcl31PmB/RorNqs8= sha512-VgebQseT1hz1Ps7vVp2uaSg+N/gsI5ts3AZUSnN6GMA2M82JH7o+qYifWhmVE/e8w/H48SJuA3nA9uX8zRe95Q=="
+component-event@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/component-event/-/component-event-0.2.1.tgz#8262d2be886c999ad4b85ed3e0dfb3b3e98ca9d3"
+  integrity sha512-wGA++isMqiDq1jPYeyv2as/Bt/u+3iLW0rEa+8NQ82jAv3TgqMiCM+B2SaBdn2DfLilLjjq736YcezihRYhfxw==
 
 compressible@~2.0.16:
   version "2.0.18"
@@ -3688,6 +3654,11 @@ domify@^1.3.1:
   version "1.4.1"
   resolved "https://registry.npmmirror.com/domify/-/domify-1.4.1.tgz"
   integrity sha512-x18nuiDHMCZGXr4KJSRMf/TWYtiaRo6RX8KN9fEbW54mvbQ6pieUuerC2ahBg+kEp1wycFj8MPUI0WkIOw5E9w==
+
+domify@^1.4.1:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/domify/-/domify-1.4.2.tgz#2d3e8ac49cae41206cc84be31ca401050ae780a6"
+  integrity sha512-m4yreHcUWHBncGVV7U+yQzc12vIlq0jMrtHZ5mW6dQMiL/7skSYNVX9wqKwOtyO9SGCgevrAFEgOCAHmamHTUA==
 
 domready@1.0.8:
   version "1.0.8"
@@ -4782,11 +4753,6 @@ glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global-object@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/global-object/-/global-object-1.0.0.tgz"
-  integrity "sha1-KhtF6QHVXkdzFU8S8M7B75q6X58= sha512-mSPSkY6UsHv6hgW0V2dfWBWTS8TnPnLx3ECVNoWp6rBI2Bg66VYoqGoTFlH/l7XhAZ/l+StYlntXlt87BEeCcg=="
-
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.npmmirror.com/globals/-/globals-11.12.0.tgz"
@@ -5293,6 +5259,11 @@ inflight@^1.0.4:
   dependencies:
     once "^1.3.0"
     wrappy "1"
+
+inherits-browser@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/inherits-browser/-/inherits-browser-0.1.0.tgz#893a7c9cc78f2a1e18093aaa203bbb8cf5c30511"
+  integrity sha512-CJHHvW3jQ6q7lzsXPpapLdMx5hDpSF3FSh45pwsj6bKxJJ8Nl8v43i5yXnr3BdfOimGHKyniewQtnAIp3vyJJw==
 
 inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.4"
@@ -6389,23 +6360,15 @@ min-dash@3.5.2:
   resolved "https://registry.npmmirror.com/min-dash/-/min-dash-3.5.2.tgz#23786fa289116ba3656038e16511577413d27200"
   integrity sha512-YVbJZUtnzT5QsgJUp9H9uyJTW6NJgswFqI27RI/+MSox860uIjaGMbSQBftEzbMXiJVRG24hpoIh3SG666SHgA==
 
-min-dash@^3.0.0, min-dash@^3.1.0, min-dash@^3.3.0, min-dash@^3.5.2, min-dash@^3.7.0:
+min-dash@^3.0.0, min-dash@^3.1.0, min-dash@^3.5.2, min-dash@^3.7.0:
   version "3.8.1"
   resolved "https://registry.npmmirror.com/min-dash/-/min-dash-3.8.1.tgz"
   integrity sha512-evumdlmIlg9mbRVPbC4F5FuRhNmcMS5pvuBUbqb1G9v09Ro0ImPEgz5n3khir83lFok1inKqVDjnKEg3GpDxQg==
 
-min-dom@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmmirror.com/min-dom/-/min-dom-0.2.0.tgz"
-  integrity "sha1-fxo/ishcBa3uez9A4AxSgDB1zV0= sha512-VmxugbnAcVZGqvepjhOA4d4apmrpX8mMaRS+/jo0dI5Yorzrr4Ru9zc9KVALlY/+XakVCb8iQ+PYXljihQcsNw=="
-  dependencies:
-    component-classes "^1.2.3"
-    component-closest "^0.1.4"
-    component-delegate "^0.2.3"
-    component-event "^0.1.4"
-    component-matches-selector "^0.1.5"
-    component-query "^0.0.3"
-    domify "^1.3.1"
+min-dash@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/min-dash/-/min-dash-4.1.1.tgz#09b85a5e1d0189ce02a4ec416180aa85db06451b"
+  integrity sha512-r+Z6vxXLSGr+otyCPx9NKPCSixw7LdfZREPTmqfd2a/d5D6w4NCdOxRJs+HyFO6v2pQkyHroGSiINWECK+OWPg==
 
 min-dom@^3.1.0, min-dom@^3.1.3:
   version "3.1.3"
@@ -6416,6 +6379,15 @@ min-dom@^3.1.0, min-dom@^3.1.3:
     domify "^1.3.1"
     indexof "0.0.1"
     matches-selector "^1.2.0"
+
+min-dom@^4.0.3:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/min-dom/-/min-dom-4.1.0.tgz#ecbf9a2d0412ffe4ddc14253d65d15b47b6b4bf8"
+  integrity sha512-1lj1EyoSwY/UmTeT/hhPiZTsq+vK9D+8FAJ/53iK5jT1otkG9rJTixSKdjmTieEvdfES+sKbbTptzaQJhnacjA==
+  dependencies:
+    component-event "^0.2.1"
+    domify "^1.4.1"
+    min-dash "^4.0.0"
 
 mini-css-extract-plugin@^0.9.0:
   version "0.9.0"
@@ -7949,6 +7921,11 @@ randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
+randomcolor@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/randomcolor/-/randomcolor-0.6.2.tgz#7a57362ae1a1278439aeed2c15e5deb8ea33f56d"
+  integrity sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==
+
 randomfill@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npmmirror.com/randomfill/-/randomfill-1.0.4.tgz"
@@ -9123,11 +9100,6 @@ svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/svg-tags/-/svg-tags-1.0.0.tgz"
   integrity "sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q= sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA=="
-
-svg.js@^2.6.3:
-  version "2.7.1"
-  resolved "https://registry.npmmirror.com/svg.js/-/svg.js-2.7.1.tgz"
-  integrity sha512-ycbxpizEQktk3FYvn/8BH+6/EuWXg7ZpQREJvgacqn46gIddG24tNNe4Son6omdXCnSOaApnpZw6MPCBA1dODA==
 
 svgo@^1.0.0:
   version "1.3.2"
