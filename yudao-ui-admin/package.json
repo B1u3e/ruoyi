@@ -49,7 +49,7 @@
     "file-saver": "2.0.5",
     "fuse.js": "6.4.3",
     "highlight.js": "9.18.5",
-    "js-beautify": "1.13.0",
+    "js-beautify": "1.14.11",
     "jsencrypt": "3.0.0-rc.1",
     "crypto-js": "^4.0.0",
     "nprogress": "0.2.0",
