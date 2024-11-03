@@ -9722,10 +9722,10 @@ vue-count-to@1.0.13:
   resolved "https://registry.npmmirror.com/vue-count-to/-/vue-count-to-1.0.13.tgz"
   integrity sha512-6R4OVBVNtQTlcbXu6SJ8ENR35M2/CdWt3Jmv57jOUM+1ojiFmjVGvZPH8DfHpMDSA+ITs+EW5V6qthADxeyYOQ==
 
-vue-cropper@0.5.5:
-  version "0.5.5"
-  resolved "https://registry.npmmirror.com/vue-cropper/-/vue-cropper-0.5.5.tgz"
-  integrity sha512-5mGaBlS1EwLxUFwHHX2Q8zOZSiVfBUjOfolR+ZNKwu7Rh3u+GhwHYOyFkgZHhhoQBBNdyVB28O6W+MpMimhCbA==
+vue-cropper@0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/vue-cropper/-/vue-cropper-0.6.5.tgz#c259d3cc57b84ad4be23a7dd63d91c1def90abde"
+  integrity sha512-lSvY6IpeA/Tv/iPZ/FOkMHVRBPSlm7t57nuHEZFBMRNOH8ElvfqVlnHGDOAMlvPhh9gHiddiQoASS+fY0MFX0g==
 
 vue-eslint-parser@^7.2.0:
   version "7.11.0"
